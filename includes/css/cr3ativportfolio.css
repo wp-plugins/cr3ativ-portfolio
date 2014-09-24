@@ -1,0 +1,311 @@
+@charset "UTF-8";
+
+/*---------------------Portfolio Style-------------------------- */
+
+ul.cr3ativ_portfolio_widget_wrapper {
+    margin:0;
+    padding:0;
+}
+
+ul.cr3ativ_portfolio_widget_wrapper li {
+    list-style: none;
+    margin-left: 0;
+}
+
+.cr3ativeportfolioclear {
+	clear: both;
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	width:100%;
+	}
+img, img:hover, a img, a img:hover {
+    border-radius: 0 0 0 0 !important;
+    -webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+    backface-visibility: hidden !important;
+}
+	
+.cr3ativeportfolio_page_wrap {
+	width:100%;
+	padding-top: 40px;
+}
+.cr3ativeportfolio_wrapper {
+	width:100%;
+	margin:0 auto;
+	clear: both;
+}
+.cr3ativeportfolio_wrapper p {
+    line-height: 1.6em;
+    margin-bottom: 20px;
+}
+.cr3ativeportfolio_wrapper h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.cr3ativeportfolio_wrapper h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 30px 0 10px 0;
+}
+#cr3ativeportfolio_portfolio-filter {
+	float: left;
+	list-style-type: none;
+	width: 100%;
+	padding: 25px 0;
+}
+li.cr3ativeportfolio_filter {
+	 padding-right: 10px;
+}
+#cr3ativeportfolio_portfolio-filter li {
+	display: inline;
+	list-style:none;
+}
+#cr3ativeportfolio_portfolio-filter li:before {
+	content:"";
+	padding-right:0;
+}
+#cr3ativeportfolio_portfolio-filter li a {
+	display: inline;
+	padding-right: 10px;
+	text-decoration: none;
+	font-size:14px;
+}
+#cr3ativeportfolio_portfolio-filter li a.current, #cr3ativeportfolio_portfolio-filter li a:hover {
+	font-size: 14px;
+}
+#cr3ativeportfolio_portfolio-filter li a .slash:after {
+	content:"/";
+	font-size:14px;
+	padding-left:10px;
+}
+#cr3ativeportfolio_portfolio-filter li:last-child a .slash:after {
+	content:"";
+}
+ul#cr3ativeportfolio_portfolio-list {
+	padding:0;
+	margin:0 -20px 0 0;
+}
+#cr3ativeportfolio_portfolio-list li {
+	list-style:none;
+	font-size:12px;
+}
+#cr3ativeportfolio_portfolio-list li:before {
+	content:"";
+	padding-right:0;
+}
+li.cr3ativeportfolio_portfolio-item {
+	float: left;
+    margin-bottom: 25px;
+    margin-right: 9px;
+    overflow: visible;
+    position: relative;
+    width: 23.8%;
+}
+li.cr3ativeportfolio_portfolio-item a, li.cr3ativeportfolio_portfolio-itemthree a, li.cr3ativeportfolio_portfolio-itemtwo a, li.cr3ativeportfolio_portfolio-itemone a {
+	font-size:14px;
+	-webkit-transition:all 0.5s ease-in;
+	-moz-transition:all 0.5s ease-in;
+	-o-transition:all 0.5s ease-in;
+	transition:all 0.5s ease-in;
+    text-decoration: none;
+}
+li.cr3ativeportfolio_portfolio-item a.title, li.cr3ativeportfolio_portfolio-itemthree a.title, li.cr3ativeportfolio_portfolio-itemtwo a.title, li.cr3ativeportfolio_portfolio-itemone a.title {
+	opacity:.7;
+	padding-left: 10px;
+}
+li.cr3ativeportfolio_portfolio-item a:hover, li.cr3ativeportfolio_portfolio-itemthree a:hover, li.cr3ativeportfolio_portfolio-itemtwo a:hover, li.cr3ativeportfolio_portfolio-itemone a:hover {
+	opacity:1;
+	text-decoration:none;
+}
+.cr3ativeportfolio_port_date {
+	float:right;
+	font-size: 12px;
+}
+.cr3ativeportfolio_thumb {
+	margin-bottom:25px;
+	-webkit-transition:all 0.4s ease-in;
+	-moz-transition:all 0.4s ease-in;
+	-o-transition:all 0.4s ease-in;
+	transition:all 0.4s ease-in;
+}
+.cr3ativeportfolio_thumb:hover {
+	opacity:.80;
+}
+#cr3ativeportfolio_portfolio-wrapper {
+	width:100%;
+}
+.cr3ativeportfolio_mask {
+	display: block;
+	height: 100%;
+	opacity: 1;
+	width: 100%;
+}
+li.cr3ativeportfolio_portfolio-itemone .cr3ativeportfolio_mask a, li.cr3ativeportfolio_portfolio-itemtwo .cr3ativeportfolio_mask a, li.cr3ativeportfolio_portfolio-itemthree .cr3ativeportfolio_mask a, li.cr3ativeportfolio_portfolio-item .cr3ativeportfolio_mask a {
+    font-size: 0px;
+}
+li.cr3ativeportfolio_portfolio-itemthree {
+	float: left;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    overflow: visible;
+    position: relative;
+    width: 31.2%;
+}
+li.cr3ativeportfolio_portfolio-itemtwo {
+	float: left;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    overflow: visible;
+    position: relative;
+    width: 47.9%;
+}
+li.cr3ativeportfolio_portfolio-itemone {
+	float: left;
+    margin-bottom: 45px;
+    overflow: visible;
+    position: relative;
+    width: 98%;
+}
+
+a.cr3ativeportfolio_title {
+	padding-left:10px;
+}
+.cr3ativeportfolio_port_date {
+	padding-right:10px;
+}
+.one_third_first, .two_third {
+	font-size:18px;
+	line-height:1.4em;
+	margin-bottom:20px;
+	font-:300;
+}
+.cr3ativeportfolio_one_third_first {
+	width: 30.66%;
+	position: relative;
+	clear: left;
+	margin-left: 0;
+	float: left;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777777;
+}
+.cr3ativeportfolio_two_third {
+	width: 65.33%;
+	position: relative;
+	margin-left: 4%;
+	float: left;
+    margin-top: 20px;
+}
+div .first {
+	clear: left;
+	margin-left: 0;
+}
+.cr3ativeportfolio_custom_tax a, .cr3ativeportfolio_custom_tax {
+	color: #afafaf;
+	font-size:12px;
+	font-weight:600;
+	text-transform:uppercase;
+}
+.cr3ativeportfolio_custom_tax a, .cr3ativeportfolio_custom_tax {
+	color: #333333;
+	font-size:14px;
+	font-weight:600;
+	text-transform:uppercase;
+    margin-bottom: 10px;
+}
+.cr3ativeportfolio_custom_tax a:hover {
+	text-decoration:none;
+	color:#e32139;
+}
+.cr3ativeportfolio_custom_meta, .cr3ativeportfolio_custom_meta a, .cr3ativeportfolio_custom_meta ul li, .cr3ativeportfolio_custom_meta ul li a, .cr3ativeportfolio_custom_meta p {
+	font-size:12px;
+}
+.cr3ativeportfolio_custom_meta {
+	margin:0 0 20px;
+}
+.cr3ativ_next_post a, .cr3ativ_prev_post a {
+    display: block;
+}
+.cr3ativ_next_post a{
+    float: right;
+}
+.cr3ativ_prev_post a {
+    float: left;
+}
+/*  START OF MEDIA QUERIES */
+
+ @media only screen and (max-width: 800px) {
+	.embed-container {
+		position: relative;
+		padding-bottom: 52.25%; /* 16/9 ratio */
+		padding-top: 30px; /* IE6 workaround*/
+		height: 0;
+		overflow: hidden;
+		}
+
+	.embed-container iframe,
+	.embed-container object,
+	.embed-container embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		}
+	
+	img {
+		max-width:100%;
+		height:auto;
+		}
+	
+	img {
+		-ms-interpolation-mode:bicubic;
+		}  
+	
+	.cr3ativeportfolio_wrapper {
+		width:95%;
+		padding:0;
+		}
+		
+	#cr3ativeportfolio_portfolio-wrapper {
+		width:100%;
+		}
+		
+	li.cr3ativeportfolio_portfolio-item, li.cr3ativeportfolio_portfolio-itemone, li.cr3ativeportfolio_portfolio-itemtwo, li.cr3ativeportfolio_portfolio-itemthree {
+		width:100%;
+		}
+	
+	.cr3ativeportfolio_thumb {
+		margin-bottom:5px;
+		}
+		
+	.cr3ativeportfolio_two_third {
+		float: left;
+		margin-left: 0;
+		position: relative;
+		width: 100%;
+		}
+		
+	.cr3ativeportfolio_one_third_first {
+		clear: left;
+		float: left;
+		margin-left: 0;
+		position: relative;
+		width: 100%;
+		}
+}
+ @media only screen and (max-width: 640px) {
+		
+}
+ @media only screen and (max-width: 480px) {	
+
+}
+ @media only screen and (max-width: 320px) {
+
+}
+
+/*  END OF MEDIA QUERIES */

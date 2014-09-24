@@ -1,0 +1,224 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cr3ativ Portfolio Plugin\n"
+"POT-Creation-Date: 2014-09-23 08:12-0500\n"
+"PO-Revision-Date: 2014-09-23 08:13-0500\n"
+"Last-Translator: Barb Atkinson <barbi.atkinson@gmaill.com>\n"
+"Language-Team: Barb Atkinson <barbi.atkinson@gmaill.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cr3ativ-portfolio-widget.php:7
+msgid "Cr3ativ Portfolio Loop"
+msgstr ""
+
+#: cr3ativ-portfolio-widget.php:29
+msgid "Title"
+msgstr ""
+
+#: cr3ativ-portfolio-widget.php:33
+msgid "# of Columns"
+msgstr ""
+
+#: cr3ativ-portfolio-widget.php:35 cr3ativ-portfolio-widget.php:53
+msgid "Select One"
+msgstr ""
+
+#: cr3ativ-portfolio-widget.php:43
+msgid "How many to show?"
+msgstr ""
+
+#: cr3ativ-portfolio-widget.php:47
+msgid "Sort by random? Defaults to ascending"
+msgstr ""
+
+#: cr3ativ-portfolio-widget.php:51
+msgid "Portfolio category"
+msgstr ""
+
+#: cr3ativ-portfolio-widget.php:55
+msgid "All"
+msgstr ""
+
+#: cr3ativ-portfolio-widget.php:140 templates/single-cr3ativportfolio.php:115
+#: templates/template-portfolio1column.php:19
+#: templates/template-portfolio1columnfilter.php:19
+#: templates/template-portfolio2column.php:20
+#: templates/template-portfolio2columnfilter.php:19
+#: templates/template-portfolio3column.php:19
+#: templates/template-portfolio3columnfilter.php:19
+#: templates/template-portfolio4column.php:19
+#: templates/template-portfolio4columnfilter.php:19
+msgid "There are no posts to display. Try using the search."
+msgstr ""
+
+#: cr3ativ-portfolio.php:54
+msgid "Cr3ativ Portfolio Options"
+msgstr ""
+
+#: cr3ativ-portfolio.php:55
+msgid "Portfolio Options"
+msgstr ""
+
+#: cr3ativ-portfolio.php:90
+msgid "Cr3ativ Portfolio Settings"
+msgstr ""
+
+#: cr3ativ-portfolio.php:159
+msgid ""
+"Please set the slug name below for your portfolio single pages and portfolio "
+"category pages.  Default url for single pages is /cr3ativportfolio/ and "
+"default url for portfolio category pages is /portfolio-category/.  If you "
+"leave this blank, the default portfolio slug names will be used."
+msgstr ""
+
+#: cr3ativ-portfolio.php:171
+msgid "Portfolio Single Page Slug Name"
+msgstr ""
+
+#: cr3ativ-portfolio.php:175
+msgid "Portfolio Category Page Slug Name"
+msgstr ""
+
+#: cr3ativ-portfolio.php:191 cr3ativ-portfolio.php:192
+msgid "Portfolio"
+msgstr ""
+
+#: cr3ativ-portfolio.php:193
+msgid "Add New"
+msgstr ""
+
+#: cr3ativ-portfolio.php:194
+msgid "Add New Portfolio"
+msgstr ""
+
+#: cr3ativ-portfolio.php:195
+msgid "Edit Portfolio"
+msgstr ""
+
+#: cr3ativ-portfolio.php:196
+msgid "New Portfolio"
+msgstr ""
+
+#: cr3ativ-portfolio.php:197
+msgid "View Portfolio"
+msgstr ""
+
+#: cr3ativ-portfolio.php:198
+msgid "Search Portfolio"
+msgstr ""
+
+#: cr3ativ-portfolio.php:199
+msgid "Nothing found"
+msgstr ""
+
+#: cr3ativ-portfolio.php:200
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: cr3ativ-portfolio.php:222 templates/single-cr3ativportfolio.php:33
+msgid "Date"
+msgstr ""
+
+#: cr3ativ-portfolio.php:223
+msgid "Date."
+msgstr ""
+
+#: cr3ativ-portfolio.php:228 cr3ativ-portfolio.php:329
+#: templates/single-cr3ativportfolio.php:52
+msgid "Client"
+msgstr ""
+
+#: cr3ativ-portfolio.php:229
+msgid "Enter client name."
+msgstr ""
+
+#: cr3ativ-portfolio.php:235 cr3ativ-portfolio.php:330
+#: templates/single-cr3ativportfolio.php:70
+msgid "Link"
+msgstr ""
+
+#: cr3ativ-portfolio.php:236
+msgid "Enter the url address."
+msgstr ""
+
+#: cr3ativ-portfolio.php:242
+msgid "Link Text"
+msgstr ""
+
+#: cr3ativ-portfolio.php:243
+msgid ""
+"Enter the text for the link listed above (if no link is entered, this text "
+"will not appear."
+msgstr ""
+
+#: cr3ativ-portfolio.php:249
+msgid "Left Intro Text"
+msgstr ""
+
+#: cr3ativ-portfolio.php:250
+msgid ""
+"Enter text here that will appear on the left above the date and other "
+"project informtion."
+msgstr ""
+
+#: cr3ativ-portfolio.php:256 cr3ativ-portfolio.php:331
+#: templates/single-cr3ativportfolio.php:88
+msgid "Skills"
+msgstr ""
+
+#: cr3ativ-portfolio.php:257
+msgid "List skills."
+msgstr ""
+
+#: cr3ativ-portfolio.php:273
+msgid "Portfolio Info"
+msgstr ""
+
+#: cr3ativ-portfolio.php:289 cr3ativ-portfolio.php:333
+msgid "Portfolio Category"
+msgstr ""
+
+#: cr3ativ-portfolio.php:309
+msgid "Cr3ativ Portfolio Single Page"
+msgstr ""
+
+#: cr3ativ-portfolio.php:326
+msgid "Portfolio Image"
+msgstr ""
+
+#: cr3ativ-portfolio.php:327
+msgid "Portfolio Date"
+msgstr ""
+
+#: cr3ativ-portfolio.php:328
+msgid "Portfolio Name"
+msgstr ""
+
+#: cr3ativ-portfolio.php:332
+msgid "Intro"
+msgstr ""
+
+#: templates/template-portfolio1column.php:67
+#: templates/template-portfolio2column.php:68
+#: templates/template-portfolio3column.php:68
+#: templates/template-portfolio4column.php:68
+msgid "Next Page"
+msgstr ""
+
+#: templates/template-portfolio1column.php:74
+#: templates/template-portfolio2column.php:75
+#: templates/template-portfolio3column.php:75
+#: templates/template-portfolio4column.php:75
+msgid "Previous Page"
+msgstr ""
