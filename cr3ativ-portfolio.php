@@ -5,7 +5,7 @@
  * Description: Custom written plugin to add portfolio items (and categorize them) to your WordPress site.
  * Author: Jonathan Atkinson
  * Author URI: http://cr3ativ.com/
- * Version: 1.0.5
+ * Version: 1.0.6
  */
 
 /* Place custom code below this line. */
@@ -25,6 +25,22 @@ function creativ_portfolio_add_scripts() {
 }
 		
 add_action('wp_enqueue_scripts', 'creativ_portfolio_add_scripts');
+
+
+add_action('admin_head', 'cr3ativportfolio_custom_css');
+
+function cr3ativportfolio_custom_css() {
+  echo '<style>
+
+.portfoliointro.column-portfoliointro {
+    display: inline-block;
+    margin: 5px 0 25px;
+    height: 110px;
+    overflow: scroll;
+    width: 90%;
+}
+  </style>';
+}
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////

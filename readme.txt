@@ -3,7 +3,7 @@ Contributors: Cr3ativ
 Tags: portfolio, filterable
 Requires at least: 3.0.1
 Tested up to: 4.0
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -98,8 +98,8 @@ Styling for these page templates are included in the includes directory under :
 
 == Changelog ==
 
-= 1.0.5 =
-* Updated the package to add a widget area as well as a drag/drop widget for portfolio most recent.  Also updated the single page template to include the new widget area and new language files.
+= 1.0.6 =
+Updated admin column view incase short codes are being used and added CSS to column to scroll when a lot of text is used in the intro area.
 
 = 1.0.4 =
 * Updated the template files that do not use the filter to add pagination.  This setting is based on the WordPress Settings > Reading selection.
