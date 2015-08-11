@@ -4,7 +4,7 @@ class cr3ativ_portfolio_widget extends WP_Widget {
 
 	// constructor
 	function cr3ativ_portfolio_widget() {
-        parent::WP_Widget(false, $name = __('Cr3ativ Portfolio Loop', 'cr3atport') );
+        parent::__construct(false, $name = __('Cr3ativ Portfolio Loop', 'cr3atport') );
     }
 
 	// widget form creation
