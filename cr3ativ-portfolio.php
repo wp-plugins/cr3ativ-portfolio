@@ -5,7 +5,7 @@
  * Description: Custom written plugin to add portfolio items (and categorize them) to your WordPress site.
  * Author: Jonathan Atkinson
  * Author URI: http://cr3ativ.com/
- * Version: 1.1.0
+ * Version: 1.2.0
  */
 
 /* Place custom code below this line. */
@@ -150,6 +150,14 @@ add_settings_field(
  'cr3_portfoliosettings_portslugbox'
  );
     
+add_settings_field(
+ 'cr3_portfoliosettings_portslugbox_template2',
+ '', 
+ 'cr3_portfoliosettings_portslugbox_field2',
+ 'cr3_portfoliosettings',
+ 'cr3_portfoliosettings_portslugbox2'
+ );
+    
 }
 
 add_action('admin_init', 'cr3_portfoliosettings_settings_init');
@@ -159,6 +167,7 @@ function cr3_portfoliosettings_options_validate($input){
  global $allowedposttags, $allowedrichhtml;
 if(isset($input['portslugbox_template']))
  $input['portslugbox_template'] = wp_kses_post($input['portslugbox_template']);
+ $input['portslugbox_template2'] = wp_kses_post($input['portslugbox_template2']);
 return $input;
 }
 
@@ -172,10 +181,16 @@ function cr3_portfoliosettings_portslugbox_field() {
  $options = get_option('cr3_portfoliosettings_options');
  $portslugbox = (isset($options['portslugbox_template'])) ? $options['portslugbox_template'] : '';
  $portslugbox = strip_tags($portslugbox); //sanitise output
+ $portslugbox2 = (isset($options['portslugbox_template2'])) ? $options['portslugbox_template2'] : '';
+ $portslugbox2 = strip_tags($portslugbox2); //sanitise output
 ?>
 <p>
     <label><?php _e('Portfolio Single Page Slug Name', 'cr3atport');?></label>
  <input type="text" id="portslugbox_template" name="cr3_portfoliosettings_options[portslugbox_template]" value="<?php echo $portslugbox; ?>" /></p>
+
+<p>
+    <label><?php _e('Portfolio Category Slug Name', 'cr3atport');?></label>
+ <input type="text" id="portslugbox_template2" name="cr3_portfoliosettings_options[portslugbox_template2]" value="<?php echo $portslugbox2; ?>" /></p>
 
 <?php
 }
@@ -290,7 +305,7 @@ function cr3ativportfolio_type()	{
 				'hierarchical' => true, 
 				'label' => __('Portfolio Category', 'cr3atport'),
 				'query_var' => true, 
-				'rewrite' => true,
+				'rewrite' => array('slug' => $portslugbox2), 
 			) 
 	);
  

@@ -3,7 +3,7 @@ Contributors: Cr3ativ
 Tags: portfolio, filterable
 Requires at least: 3.0.1
 Tested up to: 4.3
-Stable tag: 1.1.0
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,7 @@ NoFilter 4 Column - template-portfolio4column.php
 NoFilter 3 Column - template-portfolio3column.php
 NoFilter 2 Column - template-portfolio2column.php
 NoFilter 1 Column - template-portfolio1column.php
+Portfolio Category Page - taxonomy-cr3ativportfolio_type.php
 
 
 
@@ -97,6 +98,9 @@ Styling for these page templates are included in the includes directory under :
 
 
 == Changelog ==
+
+= 1.2.0 =
+Updated templates directory to include missing template for portfolio category page.  If you go to Portfolio > Portfolio Options after the update, you should now see a box to set the slug name for portfolio category.  After you enter your information you will need to go to Settings > Permalinks and click ‘save’ again to flush out the rewrite rules.
 
 = 1.1.0 =
 Updated widget section to support WP 4.3.
